@@ -1,0 +1,54 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body {
+  width: 100%;
+  font-size: 1.6em;
+}
+#input {
+  width: 50%;
+  height: 900px;
+  padding: 50px 100px;
+  background: #ddd;
+  float: left;
+}
+  #options {
+    font-size: 1.6em;
+    padding: 3px 7px;
+    font-weight: 600;
+  }
+  #choiceDiv {
+    width: 100%;
+    margin-top: 100px;
+  }
+#output {
+  width: 50%;
+  height: 900px;
+  padding: 50px 100px;
+  background: #aaa;
+  float: left;
+}
+  .choiceButton {
+    width: 80%;
+    height: 70px;
+    background: #222;
+    color: #fff;
+    cursor: pointer;
+    margin: 5px auto;
+    font-size: 1.4em;
+    font-weight: 700;
+  }
+  .disabled {
+    width: 80%;
+    height: 70px;
+    background: #222;
+    color: #888;
+    cursor: not-allowed;
+    margin: 5px auto;
+    font-size: 1.4em;
+    font-weight: 700;
+  }

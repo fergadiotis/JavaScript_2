@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/app.css">
+  <title>Assignment 2</title>
+</head>
+<body>
+  
+  <div id="input">
+    <select name="options" id="options" title="options" onchange="setCategory(this.value);">
+      <option value="0" selected>select a category...</option>
+      <option value="1">favorite movie</option>
+      <option value="2">favorite actor</option>
+      <option value="3">favorite director</option>
+    </select>
+    <div id="choiceDiv">
+    </div>
+  </div>
+  <div id="output">
+    <ol id="rankedList"></ol>
+  </div>
+
+  <script src="scripts/app.js"></script>
+</body>
+</html>
